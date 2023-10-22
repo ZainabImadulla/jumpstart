@@ -16,7 +16,7 @@ export default function Study (){
             <h2  className = "topHeader"> Study Sessions</h2>
             <div className = "studySessions">
                 <Card className = "studyCard">
-                    <Card.Img className = "addImg" onClick= {toggleShowB} variant="top" src= {require ('/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/images/new.png')} /> 
+                    <Card.Img className = "addImg" onClick= {toggleShowB} variant="top" src= {require ('../images/new.png')} /> 
                 </Card>
 
                 <Nav>
