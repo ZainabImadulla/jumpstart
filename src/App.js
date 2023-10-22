@@ -1,10 +1,10 @@
 
 import './App.css';
-import Session from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/pages/session.js';
-import Study from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/pages/study.js';
-import Home from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/pages/home.js';
-import Login from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/pages/login.js'
-import Register from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/pages/register.js';
+import Session from '../src/pages/session.js';
+import Study from '../src/pages/study.js';
+import Home from '../src/pages/home.js';
+import Login from '../src/pages/login.js'
+import Register from '../src/pages/register.js';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {

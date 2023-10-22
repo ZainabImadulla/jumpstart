@@ -1,7 +1,7 @@
 import React from "react";
 import './session.css'
-import Countdown from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/components/countdown.js'
-import TodoList from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/components/TodoList.js';
+import Countdown from '../components/countdown.js'
+import TodoList from '../components/TodoList.js';
 export default function Session (){
     return (
     <div> 

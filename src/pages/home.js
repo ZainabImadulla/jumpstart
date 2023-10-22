@@ -9,7 +9,7 @@ export default function Home (){
             <h2 className = "topHeader"> Increasing Student Productivity</h2>
             <div class="column-container">
                     <Card className = "studyCard">
-                        <Card.Img className = "topImg" variant="top" src= {require ('/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/images/personalized.png')} />
+                        <Card.Img className = "topImg" variant="top" src= {require ('../images/personalized.png')} />
                         <Card.Body>
                             <Card.Text className = "cardtext">
                             <h3 className="heading">Personalized To-Do Lists</h3>
@@ -18,7 +18,7 @@ export default function Home (){
                         </Card.Body>
                     </Card>
                     <Card className = "studyCard">
-                        <Card.Img className = "topImg" variant="top" src= {require ('/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/images/timers.png')} />
+                        <Card.Img className = "topImg" variant="top" src= {require ('../images/timers.png')} />
                         <Card.Body>
                             <Card.Text className = "cardtext">
                             <h3 className="heading"> Pomodoro Method Timers</h3>
@@ -27,7 +27,7 @@ export default function Home (){
                         </Card.Body>
                     </Card>
                     <Card className = "studyCard">
-                        <Card.Img className = "topImg" variant="top" src= {require ('/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/images/stats.png')} />
+                        <Card.Img className = "topImg" variant="top" src= {require ('../images/stats.png')} />
                         <Card.Body>
                             <Card.Text className = "cardtext">
                             <h3 className="heading">Individualized Stats</h3>

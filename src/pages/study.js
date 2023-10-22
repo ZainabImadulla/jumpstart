@@ -1,10 +1,10 @@
 import React, {useState} from "react";
 import "./study.css"
-import NewSession from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/components/newsession.js';
+import NewSession from '../components/newsession.js';
 import Toast from 'react-bootstrap/Toast';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Welcome from '/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/components/welcome.js'
+import Welcome from '../components/welcome.js'
 import Nav from 'react-bootstrap/Nav';
 
 export default function Study (){
@@ -22,7 +22,7 @@ export default function Study (){
                 <Nav>
                     <Nav.Link href="/study/session">
                         <Card className = "studyCard">
-                            <Card.Img className = "topImg" variant="top" src= {require ('/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/images/biology.jpg')} />
+                            <Card.Img className = "topImg" variant="top" src= {require ('../images/biology.jpg')} />
                             <Card.Body>
                                 <Card.Text className = "cardtext">
                                     <div className =  "heading" > BIOL111 - Biological Sciences </div>
@@ -34,7 +34,7 @@ export default function Study (){
                 </Nav>
 
                 <Card className = "studyCard">
-                    <Card.Img className = "topImg" variant="top" src= {require ('/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/images/binary.jpeg')} />
+                    <Card.Img className = "topImg" variant="top" src= {require ('../images/binary.jpeg')} />
                     <Card.Body>
                         <Card.Text className = "cardtext">
                             <div className =  "heading" > CS2500 - Fundamentals of CS </div>
@@ -44,7 +44,7 @@ export default function Study (){
                 </Card>
 
                 <Card className = "studyCard">
-                    <Card.Img className = "topImg" variant="top" src= {require ('/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/images/math.jpeg')} />
+                    <Card.Img className = "topImg" variant="top" src= {require ('../images/math.jpeg')} />
                     <Card.Body>
                         <Card.Text className = "cardtext">
                             <div className =  "heading" > MATH1350 - Math Reasoning </div>
@@ -54,7 +54,7 @@ export default function Study (){
                 </Card>
 
                 <Card className = "studyCard">
-                    <Card.Img className = "topImg" variant="top" src= {require ('/Users/zainabimadulla/Desktop/HackHarvard/jumpstart/src/images/Reading.jpeg')} />
+                    <Card.Img className = "topImg" variant="top" src= {require ('../images/Reading.jpeg')} />
                     <Card.Body>
                         <Card.Text className = "cardtext">
                             <div className =  "heading" > COMS101 - Communications</div>
