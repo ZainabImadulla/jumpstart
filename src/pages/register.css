@@ -1,0 +1,46 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+.form-container input[type=email] {
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+.register-button {
+    border: 2px solid #232323 !important;
+    padding: 10px 20px !important;
+    border-radius: 50px!important;
+    margin: 25px 10px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    color: #000000 !important;
+    background-color: transparent !important;
+}
+
+.register-button:hover {
+    text-decoration: none !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+h1 {
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    margin: 20px 0px !important;
+}
+
+
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

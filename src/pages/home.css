@@ -1,0 +1,77 @@
+
+  
+  .column-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    column-gap: 4rem;
+    margin: 0px 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  @media (max-width: 1300px) {
+
+    .column-container{
+        grid-template-columns: repeat(2, 1fr) ;
+    
+  }
+} 
+
+@media (max-width: 900px) {
+
+    .column-container{
+        grid-template-columns: repeat(1, 1fr) ;
+    
+  }
+} 
+
+  
+  p {
+   
+    line-height: 1.5rem;
+    color: #242424;
+    font-weight: 400;
+    
+  }
+  
+ .topHeader{
+    margin-bottom: 5%;
+ }
+ 
+ .studyCard{
+  border-radius: 30px !important;
+  text-align: left;
+  margin: 5%;
+  text-align: center;
+
+
+
+}
+
+.topImg{
+  height: 150px;
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
+  object-fit: cover;
+
+  
+  
+}
+
+.cardtext{
+  margin-top: 5%;
+  font-size: 13px;
+  margin-left: 6%;
+  margin-right: 6%;
+
+
+
+}
+
+.heading {
+
+  font-size: 17px;
+  font-weight: 600;
+
+}

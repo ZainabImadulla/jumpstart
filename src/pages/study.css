@@ -1,0 +1,109 @@
+
+.topHeader{
+  margin-top: 50px;
+
+}
+
+
+.studySessions{
+    position: relative;
+    display: grid;
+    gap: 3rem;
+    margin: 5%;
+    align-items: center;
+    flex: auto;
+    grid-template-columns: repeat(3, 1fr) ;
+    
+}
+
+@media (max-width: 1200px) {
+
+  .studySessions {
+    grid-template-columns: repeat(2, 1fr);
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    gap: 3rem;
+  }
+  
+}
+
+
+@media (max-width: 600px) {
+
+    .studySessions {
+      grid-template-columns: repeat(1, 1fr);
+      margin-right: 20%;
+      margin-left: 20%;
+      margin-bottom: 20%;
+      gap: 1rem;
+    }
+    
+  }
+
+.makeSession{
+  position: absolute;
+  width: 100vw !important;
+  height: 100vh !important;
+  bottom: -10%;
+  
+
+
+  
+
+
+}
+
+.addImg {
+  border-radius: 30p !important;
+  height: 210px;
+  object-fit: contain
+  
+}
+
+.studyCard{
+ 
+  border-radius: 30px !important;
+  text-align: left;
+
+
+
+}
+
+.topImg{
+  height: 150px;
+  border-top-left-radius: 30px !important;
+  border-top-right-radius: 30px !important;
+  object-fit: cover;
+
+  
+  
+}
+
+.cardtext{
+  margin-top: .5%;
+  font-size: 15px;
+
+
+
+}
+
+.heading {
+  color: black;
+  font-size: 15px;
+  font-weight: 500;
+
+}
+
+.description{
+  color: rgb(99, 92, 92);
+}
+
+.welcomeMessage{
+  position: absolute;
+  width: 400px;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -188px;
+}

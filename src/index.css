@@ -1,0 +1,23 @@
+
+body {
+  margin: 0;
+  background-color: #f0efed !important;
+  font-family: 'DM Sans Variable', sans-serif !important;
+  font-weight: 500 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar{
+  background-color: #f0efed !important;
+}
+
+
+.brand{
+  font-size: 25px !important;
+}

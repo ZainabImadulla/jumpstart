@@ -1,0 +1,53 @@
+.submit-button {
+    border: 2px solid #232323 !important;
+    padding: 10px 20px !important;
+    border-radius: 50px!important;
+    margin: 25px 10px !important;
+    overflow: hidden !important;
+    box-sizing: border-box !important;
+    font-size: 16px !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+    color: #000000 !important;
+    background-color: transparent !important;
+}
+
+.submit-button:hover {
+    text-decoration: none !important;
+    color: white !important;
+    background-color: black !important;
+}
+
+.form {
+    max-width: 100%;
+    margin-right: 10%;
+    margin-left: 10%;
+    
+}
+
+.choose-image-heading {
+    font-size: 20px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: 600 !important;
+}
+
+.reset-button {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+    border: 10px "solid" black;
+    margin: 5px;
+}
+
+.pause-button {
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+    padding: 3px 10px 3px 10px;
+    border-radius: 20px;
+    border: 10px "solid" black;
+    margin: 5px;
+}
